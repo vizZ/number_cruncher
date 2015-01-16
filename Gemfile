@@ -4,4 +4,8 @@ ruby '2.1.5'
 
 gem 'sinatra'
 gem 'json'
-gem 'rack-test', :group => :test
+
+group :test do
+  gem 'rack-test'
+  gem 'rake'
+end
